@@ -7,11 +7,89 @@ let result = firstNumber + secondNumber;
 alert(result);
 
 console.log(typeof firstNumber); 
+//* words game 
 */
-let name = prompt('enter your name');
+ /* let name = prompt('enter your name');
 let age = prompt ('enter your age');
 let adj = prompt('enter an adjective');
 let favGame = prompt('what is your favorite game');
 
 alert(`Hello Mr. ${name} you are ${age} and you look ${adj} today, do you really enjoy playing ${favGame}`);
+*/ 
+
+//* functions
+
+ /*function greet (name, lastName, age= 'NONE'){
+   var welcome = console.log(name +' '+ lastName +' '+ age);
+    return welcome;
+
+};
+greet('jhon', 'wick', 29); */
+
+//* function expression 
+
+ /* const add = function (num1, num2){
+    var input = console.log((num1 * num2));
+    return num1 + num2;
+    var output = console.log ((num1 + num2));
+    return input;
+}
+console.log (typeof(num2));
+
+
+
+add(5, 5)
+*/
+
+//* arrow functions 
+
+ /* var triple = (num1) => (num1 * 3);
+
+console.log(triple(5));
+*/
+
+//* Common functions build by java : 
+/*
+map()
+filter()
+reduce()
+some()
+every()
+includes()
+slice()
+splice()
+shift()
+unshift()
+fill()
+Other functions worth mentioning
+reverse()
+sort()
+entries()
+fill()
+find()
+flat()
+*/
+
+//* exercice 
+//* multiplication expression function 
+/*
+const multiplication = function(num1, num2){
+    return (num1 * num2);
+}
+console.log(multiplication(5, 3));
+
+//* substraction decoration funtion
+function substraction(num1 , num2){
+    return (num1 - num2);
+}
+console.log(substraction(20, 30));
+
+//* sum arrow function
+
+sum = (num1, num2) => (num1 + num2);
+
+console.log(sum(10, 20));
+*/
+
+
 
