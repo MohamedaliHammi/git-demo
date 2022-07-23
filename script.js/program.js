@@ -50,6 +50,7 @@ console.log(triple(5));
 
 //* Common functions build by java : 
 /*
+.tolowercase()  use it in prompt().toLowerCase() all the input written in lowerCase
 map()
 filter()
 reduce()
@@ -90,6 +91,49 @@ sum = (num1, num2) => (num1 + num2);
 
 console.log(sum(10, 20));
 */
+
+//* exercice if statement 
+/*
+var weatherToday =
+      prompt('is the weather hot or cold').toLowerCase();
+
+if(weatherToday === 'hot')
+    alert('go eat a strewberries ice cream');
+
+else if (weatherToday === 'cold')
+    alert('go wear a jacket')
+else
+    alert('please enter cold or hot')
+
+weatherToday = 'hot'  ? alert('go eat a strewberries ice cream') :   alert('go wear a jacket') && alert('please enter cold or hot');
+*/
+
+//* EXERCICE
+
+//* calculator
+
+let num1 = prompt('please enter your first number:');
+let num2 = prompt('please enter your second number');
+let equation = prompt('please select one of this  equations (+) or (*) or (/) or (-) (**)');
+
+
+if(equation === '+'){
+     alert (+num1 + +num2);
+}else if(equation === '*'){
+    alert(num1 * num2);
+}else if (equation === '/'){
+    alert(num1 / num2);
+}else if (equation === '-'){
+    alert(num1 - num2)
+
+}else if (equation === '**'){
+    alert(num1 ** num2)
+}
+else{
+    alert('please enter a valid operation');
+}
+ 
+
 
 
 
