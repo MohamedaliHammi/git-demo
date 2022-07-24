@@ -309,3 +309,24 @@ while (ask){
 */
 
         // METHODS
+// object destruction to avoid the repitation of object.key
+/*
+var user1 = {
+    userName : 'Amine',
+    userAge : 88,
+    userCountry : 'France'
+}
+
+var {userName, userAge, userCountry} = user1;
+
+*/
+// variable location > location of the web page
+
+// var = global scope , let = scope local
+
+// minifiet write all the code in a single line that would help to load the code faster
+
+// project user login 
+
+
+
